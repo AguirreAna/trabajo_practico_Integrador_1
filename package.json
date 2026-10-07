@@ -1,0 +1,35 @@
+{
+  "name": "trabajo_practico_integrador_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AguirreAna/trabajo_practico_Integrador_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AguirreAna/trabajo_practico_Integrador_1/issues"
+  },
+  "homepage": "https://github.com/AguirreAna/trabajo_practico_Integrador_1#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
